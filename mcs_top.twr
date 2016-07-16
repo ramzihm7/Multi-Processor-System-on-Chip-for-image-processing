@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml mcs_top.twx mcs_top.ncd -o mcs_top.twr mcs_top.pcf -ucf
+mcs.ucf
+
+Design file:              mcs_top.ncd
+Physical constraint file: mcs_top.pcf
+Device,package,speed:     xc6slx45,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk_fpga
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+reset       |    2.681(R)|      SLOW  |   -1.818(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+rx          |    4.120(R)|      SLOW  |   -2.664(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+switchs<0>  |    4.091(R)|      SLOW  |   -2.589(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+switchs<1>  |    4.240(R)|      SLOW  |   -2.724(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+switchs<2>  |    4.031(R)|      SLOW  |   -2.589(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+switchs<3>  |    3.735(R)|      SLOW  |   -2.387(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+switchs<4>  |    2.479(R)|      SLOW  |   -1.628(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+switchs<5>  |    3.548(R)|      SLOW  |   -2.373(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+switchs<6>  |    3.525(R)|      SLOW  |   -2.378(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+switchs<7>  |    4.159(R)|      SLOW  |   -2.805(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk_fpga to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+leds<0>     |         7.690(R)|      SLOW  |         4.045(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+leds<1>     |         7.722(R)|      SLOW  |         4.060(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+leds<2>     |         7.569(R)|      SLOW  |         3.971(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+leds<3>     |         8.031(R)|      SLOW  |         4.270(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+leds<4>     |         7.747(R)|      SLOW  |         4.073(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+leds<5>     |        11.877(R)|      SLOW  |         6.699(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+leds<6>     |         8.653(R)|      SLOW  |         4.602(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+leds<7>     |         8.605(R)|      SLOW  |         4.569(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+tx          |        10.162(R)|      SLOW  |         5.566(R)|      FAST  |clk_fpga_BUFGP    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_fpga
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_fpga       |    7.436|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Mar 24 19:26:03 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 276 MB
+
+
+

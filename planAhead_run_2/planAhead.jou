@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Mar 24 19:13:49 2016
+# Process ID: 5664
+# Log file: C:/Xilinx/PCD1/planAhead_run_2/planAhead.log
+# Journal file: C:/Xilinx/PCD1/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx/PCD1/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin U18 [get_ports {leds[0]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {leds[1]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {leds[2]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {leds[3]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {leds[4]}]
+endgroup
+startgroup
+set_property package_pin D4 [get_ports {leds[5]}]
+endgroup
+startgroup
+set_property package_pin D4 [get_ports {leds[5]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {leds[6]}]
+endgroup
+startgroup
+set_property package_pin N12 [get_ports {leds[7]}]
+endgroup
+startgroup
+set_property package_pin E4 [get_ports {switchs[7]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {switchs[6]}]
+endgroup
+startgroup
+set_property package_pin R5 [get_ports {switchs[5]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {switchs[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {switchs[3]}]
+endgroup
+startgroup
+set_property package_pin C14 [get_ports {switchs[2]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {switchs[1]}]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports {switchs[0]}]
+endgroup
+startgroup
+set_property package_pin L15 [get_ports clk_fpga]
+endgroup
+startgroup
+set_property package_pin T15 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin B16 [get_ports rx]
+endgroup
+startgroup
+set_property package_pin A16 [get_ports tx]
+endgroup
+save_constraints

@@ -1,0 +1,2 @@
+18:21:09.581 INFO  - Project 'hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform. 
+20:00:53.911 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

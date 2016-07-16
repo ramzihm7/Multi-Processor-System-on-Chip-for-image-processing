@@ -1,0 +1,30 @@
+// Mem file initialization records.
+//
+// Release 14.6 - Data2MEM P.20131013, build 3.0.10 Apr 3, 2013
+// Copyright (c) 1995-2016 Xilinx, Inc.  All rights reserved.
+//
+// Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\data2mem.EXE -p "xc6slx45csg324-3" -bm C:/Xilinx/PCD1/ipcore_dir/microblaze_mcs.bmm -bd C:/Xilinx/PCD1/hello_world/Debug/hello_world.elf tag microblaze_mcs -bx . -u
+//
+// Created on Thursday March 24, 2016 - 07:26:29 pm, from:
+//
+//     Map file     - C:\Xilinx\PCD1\ipcore_dir\microblaze_mcs.bmm
+//     Data file(s) - C:\Xilinx\PCD1\hello_world\Debug\hello_world.elf
+//
+// Address space 'microblaze_mcs.lmb_bram', bit lane [27:24].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    0 8 0 8 0 8 0 0 0 8
+
+@00000014
+    0 1 0 0 0 0 0 9 0 0 9 0 8 0 0 0 9 E A 0 0 0 0 0 8 4 2 2 2 2 6 E 0 0 0 0 0 8 0 8 9 0 0 8 6 E 0 0 0 C 0 0 9 0 0 0 0 9 A 6 0 0 0 0
+    E 9 0 0 0 0 9 0 0 8 E 9 0 0 C 0 0 9 0 9 6 0 0 9 0 0 0 0 6 C 8 0 6 C 0 0 0 0 6 C 8 0 6 C 0 9 0 0 9 0 0 0 0 9 0 2 0 9 0 0 9 0 9 0
+    6 0 0 A 9 A 2 0 0 E 9 0 9 2 0 0 E 2 9 A A 6 0 1 8 6 0 6 0 8 0 5 1 4 6 0 0 5 1 4 6 0 0 0 A 9 0 9 2 0 8 8 C 9 0 0 9 0 0 B 0 B B B
+    B 3 3 0 3 B B 9 A A A B B 3 3 A E 3 8 2 E A C C 8 2 C 0 0 0 8 8 E 0 B 0 0 0 9 E 8 8 C 8 6 0 E 0 2 E 0 4 C 8 4 E 0 0 9 8 8 B C 8
+    8 E 2 E 0 C 9 A A A B B B B B B B B 6 0 9 0 8 8 8 8 3 0 0 9 8 8 8 E 0 3 0 0 0 8 E 8 8 C 8 6 0 E 0 2 E 0 4 C 8 4 E 0 0 0 9 8 8 8
+    C 8 8 C 2 E 0 8 0 3 0 0 8 E 8 8 8 3 3 8 C 9 0 8 8 C 8 8 C 2 C 8 0 3 0 0 0 8 E 8 8 8 9 0 8 8 0 9 8 8 8 8 C 8 C E 8 0 9 0 0 9 0 A
+    E 9 8 A 8 3 8 2 0 8 0 9 8 E A 0 2 9 0 8 8 E 2 9 A 6 0 0 9 A 2 0 9 0 0 0 0 9 0 0 9 0 A 0 6 0 0 9 A 2 0 9 0 0 9 0 9 0 A 0 6 0 0 A
+    2 0 A 0 6 0 0 9 A 2 0 9 0 0 9 0 9 0 A 0 6 0 0 9 8 8 8 8 8 8 9 9 9 0 0 9 9 A 5 8 8 A 9 9 0 9 9 8 4 8 8 8 8 8 9 9 9 9 9 A A 6 0 4
+    0 0 0 9 0 9 0 9 6 0 0 8 4 C 8 6 0 6 0 0 9 1 4 1 4 0 9 0 0 9 0 9 6 0 0 9 0 9 0 9 6 0 F 0 F 0 C F A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

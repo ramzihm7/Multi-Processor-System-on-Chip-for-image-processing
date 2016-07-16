@@ -1,0 +1,40 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design microblaze_mcs.ngc ...
+WARNING:NetListWriters:298 - No output is written to microblaze_mcs.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/iomodule_0/IOModule_Core_I1/Using_UART.Uart_Control_Status_I1/UART_Status[
+   6 : 0] on block microblaze_mcs is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Shift_Logic_Module_I/op1_s
+   hift[29 : 0] on block microblaze_mcs is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file microblaze_mcs.edif ...
+ngc2edif: Total memory usage is 81448 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design microblaze_mcs.ngc ...
+WARNING:NetListWriters:298 - No output is written to microblaze_mcs.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/iomodule_0/IOModule_Core_I1/Using_UART.Uart_Control_Status_I1/UART_Status[
+   6 : 0] on block microblaze_mcs is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Shift_Logic_Module_I/op1_s
+   hift[29 : 0] on block microblaze_mcs is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file microblaze_mcs.edif ...
+ngc2edif: Total memory usage is 81448 kilobytes
+
