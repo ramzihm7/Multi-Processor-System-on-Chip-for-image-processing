@@ -1,0 +1,11 @@
+00:06:22 **** Auto Build of configuration Debug for project testopencv ****
+make all 
+'Building file: ../src/main.cc'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -I"C:\Xilinx\14.7\ISE_DS\EDK\sw\ThirdParty\opencv\include" -c -fmessage-length=0 -I../../testopencv_bsp/microblaze_mcs/include -mno-xl-reorder -mlittle-endian -mcpu=v8.40.a -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+mb-g++: fatal error: '-c' is not a valid option to the preprocessor
+compilation terminated.
+make: *** [src/main.o] Erreur 1
+
+00:06:22 Build Finished (took 166ms)
+
